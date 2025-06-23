@@ -35,6 +35,14 @@
     gap: 20px;
 }
 
+#navigation_5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    gap: 20px;
+}
 
 #section_1 {
     display: flex;
@@ -74,6 +82,17 @@
 #section_3 img {
     width: 450px;
     height: 400px;
+}
+
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+nav p {
+    font-family: Lucida sans-serif, Arial, sans-serif;
+    font-size: larger;
 }
 
 #bordure_containeur {
