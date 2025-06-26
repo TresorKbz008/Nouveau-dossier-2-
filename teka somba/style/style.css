@@ -128,7 +128,7 @@ nav p {
     margin-bottom: 20px;
 }
 
-input {
+ .entree {
     display: flex;
     width: 97%;
     margin-bottom: 10px;
@@ -152,5 +152,45 @@ input {
     width: 100%;
     border-radius: 20px;
     outline: none;
+    background-color: bisque;
+    border-color: bisque;
+}
+
+.annonce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: aquamarine;
+}
+
+.liste_annonces {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.liste_offres {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: bisque;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+
+.grille {
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.input2 {
+    display: flex;
+    background-color: ;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
 }
